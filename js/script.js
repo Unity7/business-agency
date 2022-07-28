@@ -28,3 +28,12 @@ const playPause = () => {
 btn.addEventListener("click", () => {
   playPause();
 });
+
+video.addEventListener("timeupdate", () => {
+  const barWidth = video.currentTime / video.duration;
+  bar.style.width = `${barWidth * 100}%`;
+  if (video.ended) {
+    btn.className = "far fa-play-circle";
+    video.style.opacity = 0.3;
+  }
+});
