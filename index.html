@@ -1,49 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Business Agency</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@400;500;600;700;800&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200&family=Oswald:wght@200;300;400;500;600;700&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
-    />
-    <link rel="stylesheet" href="./css/styles.css" />
-  </head>
-  <body>
-    <!-- Nav bar -->
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@400;500;600;700;800&family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+</head>
+<body>
+    <!-- Navbar -->
     <nav class="navbar">
       <div class="navbar-logo">
-        <a href="#"> <span>C</span>ode<span>A</span>nd<span>C</span>reate </a>
+        <a href="#">
+          <span>C</span>ode<span>A</span>nd<span>C</span>reate
+        </a>
       </div>
       <div class="nav-list">
-        <a href="#" class="nav-link">Home</a>
-        <a href="#" class="nav-link">About</a>
-        <a href="#" class="nav-link">Pricing</a>
-        <a href="#" class="nav-link">Blog</a>
-        <a href="#" class="nav-link">Content</a>
+          <a href="#" class="nav-link">Home</a>
+          <a href="#" class="nav-link">About</a>
+          <a href="#" class="nav-link">Pricing</a>
+          <a href="#" class="nav-link">Blog</a>
+          <a href="#" class="nav-link">Contact</a>
       </div>
     </nav>
+    <!-- End of Navbar -->
 
     <!-- Menu -->
-<div class="menu">
-  <div class="line line-1"></div>
-  <div class="line line-2"></div>
-  <div class="line line-3"></div>
-
-  </div>
-</div>
+    <div class="menu">
+      <div class="line line-1"></div>
+      <div class="line line-2"></div>
+      <div class="line line-3"></div>
+    </div>
+    <!-- End of Menu -->
+    
     <div class="container">
-
-  <!-- Section 1 -->
-      <section class="section-1">
+      <!-- Section 1 -->
+      <section class="section-1" id="home">
         <div class="banner">
           <h1 class="banner-heading">
             <span class="heading-1">Business Ideas</span>
@@ -51,35 +45,39 @@
             <span class="heading-3">Digital Marketing</span>
             <span class="heading-4">Strategy</span>
           </h1>
-          <p class="banner-paragraph">Strategy for business growth</p>
+          <p class="banner-paragraph">Lorem ipsum dolor sit.</p>
           <button class="banner-btn">Discover Now</button>
         </div>
       </section>
-<!-- About Us - Section 1 -->
-      <section class="section-2">
-<h1 class="section-heading">About Us</h1>
-<div class="section-heading-line"></div>
-<div class="video-wrapper"><video class='video' src="/images/about-us-video.mp4"></video>
-<div class="controls"><div class="video-bar-wrapper">
-  <div class="video-bar"></div>
-</div>
-<div class="buttons">
-  <button>
-    <i class="far fa-play-circle"></i>
-  </button>
-</div>
-</div>
-</div>
-<p class="section-2-paragraph">
-  <i class="fas fa-quote-left"></i>
-  Dummy Text Dummy Text Dummy Text Dummy Text Dummy Text Dummy Text Dummy Text 
-  <i class="fas fa-quote-right"></i>
-</p>
-      </section>
+      <!-- End of Section 1 -->
 
+      <!-- Section 2 -->
+      <section class="section-2" id="about-us">
+          <h1 class="section-heading">About Us</h1>
+          <div class="section-heading-line"></div>
+          <div class="video-wrapper">
+            <video src="/images/about-us-video.mp4" class="video"></video>
+            <div class="controls">
+              <div class="video-bar-wrapper">
+                <div class="video-bar"></div>
+              </div>
+              <div class="buttons">
+                <button id="play-pause">
+                  <i class="far fa-play-circle"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+          <p class="section-2-paragraph">
+            <i class="fas fa-quote-left"></i>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam voluptatibus ipsum expedita perspiciatis unde repellat eligendi quisquam optio neque sint consequuntur, dolore delectus nisi eveniet nostrum explicabo. Quiarepellat, ut. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.
+            <i class="fas fa-quote-right"></i>
+          </p>      
+        </section>
+      <!-- End of Section 2 -->
 
-       <!-- Section 3 -->
-       <section class="section-3" id="pricing">
+      <!-- Section 3 -->
+      <section class="section-3" id="pricing">
         <h1 class="section-heading">Pricing</h1>
         <div class="section-heading-line"></div>
         <div class="swiper-container">
@@ -220,9 +218,8 @@
       </section>
       <!-- End of Section 3 -->
 
-      <!-- end of container div -->
     </div>
-
-    <script src="./js/script.js"></script>
-  </body>
+    <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+    <script src="/js/script.js"></script>
+</body>
 </html>
