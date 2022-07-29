@@ -453,3 +453,53 @@ html {
 .heading-premium {
   background: linear-gradient(to right, #0b7e48, #3be286);
 }
+
+.pricing-card-price {
+  font-family: "MADE Soulmaze", sans-serif;
+  font-size: 7rem;
+  font-weight: 300;
+  color: #fff;
+}
+
+.pricing-card-list i {
+  font-size: 1.8rem;
+  width: 3rem;
+}
+
+.pricing-card-list span {
+  font-size: 1.8rem;
+  font-weight: 300;
+  letter-spacing: 0.1rem;
+}
+
+.list-free {
+  color: #0da5d3;
+}
+
+.list-free li {
+  color: #0da5d3;
+}
+
+.list-basic {
+  color: #bdba0e;
+}
+
+.list-basic li {
+  color: #bdba0e;
+}
+
+.list-standard {
+  color: #e23b3b;
+}
+
+.list-standard li {
+  color: #e23b3b;
+}
+
+.list-premium {
+  color: #3be286;
+}
+
+.list-premium li {
+  color: #3be286;
+}
