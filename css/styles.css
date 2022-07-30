@@ -527,18 +527,22 @@ html {
 
 .btn-free {
   background-color: #0da5d3;
+  cursor: pointer;
 }
 
 .btn-basic {
   background-color: #bdba0e;
+  cursor: pointer;
 }
 
 .btn-standard {
   background-color: #e23b3b;
+  cursor: pointer;
 }
 
 .btn-premium {
   background-color: #3be286;
+  cursor: pointer;
 }
 
 .pricing-card-back {
